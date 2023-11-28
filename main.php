@@ -6,8 +6,8 @@ phpinfo();
 echo "Tomorrow I 'll learn PHP global variables.<br>";
 echo "This is a bad command: del c:\.";
 */
-/* Task 4
-$ipAddress = $_SERVER['address'];
+/* Task 3
+$ipAddress = $_SERVER['Address'];
 echo "Your IP Address is: " . $ipAddress;
 */
 /* Task 5
