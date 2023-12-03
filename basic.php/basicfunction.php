@@ -89,4 +89,7 @@ function check_palindrome($string)
 	  return 0;
 }
 echo check_palindrome('madam')."\n";
+// task 8
+$array = array(1, 2, 2, 3);
+$array = array_unique($array);
 ?>
