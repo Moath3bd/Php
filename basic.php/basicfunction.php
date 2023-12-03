@@ -30,7 +30,7 @@ function Reverse($str)
 } 
   
 $str = "moath"; 
-echo Reverse($str)
+echo Reverse($str);
 /* Task 3
 function is_str_lowercase($str1)
    {
@@ -46,4 +46,17 @@ var_dump(is_str_lowercase('abc def ghi'));
 var_dump(is_str_lowercase('abc dEf ghi'));
  
 */
+// task 4
+$a = 15;
+$b = 27;
+ 
+echo "\nThe number before swapping is:\n";
+echo "Number a =".$a." and b=".$b;
+
+$temp = $a;
+$a = $b;
+$b = $temp;
+ 
+echo "\nThe number after swapping is: \n";
+echo "Number a =".$a." and b=".$b."\n";
 ?>
