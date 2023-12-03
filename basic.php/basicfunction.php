@@ -60,7 +60,7 @@ $b = $temp;
 echo "\nThe number after swapping is: \n";
 echo "Number a =".$a." and b=".$b."\n";
 
-
+//task 6
 function armstrong_number($num) {
     $sl = strlen($num);
     $sum = 0;
@@ -79,4 +79,6 @@ function armstrong_number($num) {
   echo "Is 153 Armstrong number? ".armstrong_number(153);
   echo "\nIs 21 Armstrong number? ".armstrong_number(21);
   echo "\nIs 4587 Armstrong number? ".armstrong_number(4587);"\n";
+
+
 ?>
