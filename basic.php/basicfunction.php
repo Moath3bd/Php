@@ -31,7 +31,7 @@ function Reverse($str)
   
 $str = "moath"; 
 echo Reverse($str)
-// Task 3
+/* Task 3
 function is_str_lowercase($str1)
    {
     for ($sc = 0; $sc < strlen($str1); $sc++) {
@@ -44,4 +44,6 @@ function is_str_lowercase($str1)
        }
 var_dump(is_str_lowercase('abc def ghi'));
 var_dump(is_str_lowercase('abc dEf ghi'));
- ?>
+ 
+*/
+?>
