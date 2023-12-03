@@ -80,5 +80,13 @@ function armstrong_number($num) {
   echo "\nIs 21 Armstrong number? ".armstrong_number(21);
   echo "\nIs 4587 Armstrong number? ".armstrong_number(4587);"\n";
 
-
+// task 7
+function check_palindrome($string) 
+{
+  if ($string == strrev($string))
+      return 1;
+  else
+	  return 0;
+}
+echo check_palindrome('madam')."\n";
 ?>
