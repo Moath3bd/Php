@@ -23,4 +23,12 @@ class IsPrime
 $x = new Isprime();
 $x->check(4);
 
-?>
+// Task 2
+function Reverse($str)
+{ 
+    return strrev($str); 
+} 
+  
+$str = "moath"; 
+echo Reverse($str)
+ ?>
