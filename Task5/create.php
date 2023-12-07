@@ -1,9 +1,9 @@
 <?php
 include 'config.php';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Handle form submission
-    $name = $_POST['name'];
+if ($_SERVER['REQUEST_METHOD'] === 'POST') 
+{   
+     $name = $_POST['name'];
     $address = $_POST['address'];
     $salary = $_POST['salary'];
 

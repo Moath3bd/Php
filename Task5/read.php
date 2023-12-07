@@ -1,10 +1,9 @@
 <?php
 include 'config.php';
 
-if (isset($_GET['id'])) {
+if (isset($_GET['id'])) 
+{
     $id = $_GET['id'];
-
-    // Fetch employee details from the database
     $stmt = $pdo->prepare("SELECT * FROM Employees WHERE id = ?");
     $stmt->execute([$id]);
     $employee = $stmt->fetch(PDO::FETCH_ASSOC);

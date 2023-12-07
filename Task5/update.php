@@ -1,7 +1,8 @@
 <?php
 include 'config.php';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') 
+{
     // Handle form submission
     $id = $_POST['id'];
     $name = $_POST['name'];
@@ -13,10 +14,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     header("Location: index.php");
     exit;
-} elseif (isset($_GET['id'])) {
+} elseif (isset($_GET['id'])) 
+{
     $id = $_GET['id'];
-
-    // Fetch employee details from the database
     $stmt = $pdo->prepare("SELECT * FROM Employees WHERE id = ?");
     $stmt->execute([$id]);
     $employee = $stmt->fetch(PDO::FETCH_ASSOC);

@@ -1,7 +1,5 @@
 <?php
 include 'config.php';
-
-// Fetch employees from the database
 $stmt = $pdo->prepare("SELECT * FROM Employees");
 $stmt->execute();
 $employees = $stmt->fetchAll(PDO::FETCH_ASSOC);
